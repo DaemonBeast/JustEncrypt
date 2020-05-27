@@ -1,0 +1,35 @@
+{
+    "name": "node-acme",
+    "version": "v0.1.0-alpha",
+    "description": "Node.js based Let's Encrypt ACME client",
+    "keywords": [
+        "ACME",
+        "Let's Encrypt",
+        "RSA",
+        "Boulder",
+        "HTTP-01",
+        "HTTPS",
+        "SSL"
+    ],
+    "homepage": "https://github.com/Zera-ora/letsencrypt#readme",
+    "bugs": "https://github.com/Zera-ora/letsencrypt/issues",
+    "license": "MIT",
+    "author": {
+        "name": "zera-ora",
+        "email": "zera-ora@tuta.io",
+        "url": "https://github.com/Zera-ora"
+    },
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Zera-ora/letsencrypt.git",
+        "directory": "src"
+    },
+    "dependencies": {
+        "node-forge": "^0.9.1"
+    },
+    "engines": {
+        "node": "^14.3.0",
+        "npm": "^6.14.4"
+    }
+}
